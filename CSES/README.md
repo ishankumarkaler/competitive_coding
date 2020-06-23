@@ -3,5 +3,7 @@
 ## Introductory Problems
    * [Weird Algorithm](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Missing_Number.cpp)
    * [Missing Number](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Missing_Number.cpp)
+   * [Repetitions](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Repetitions.cpp)
 ## Sorting and Searching
    * [Distinct Numbers](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Distinct_Numbers.cpp)
+   
