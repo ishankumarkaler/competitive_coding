@@ -4,6 +4,7 @@
    * [Weird Algorithm](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Missing_Number.cpp)
    * [Missing Number](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Missing_Number.cpp)
    * [Repetitions](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Repetitions.cpp)
+   * [Increasing Array](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/increasing_array.cpp)
    * [Bit Strings](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Bit_strings.cpp)
    * [Trailing Zeros](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Trailing_zeros.cpp)
    * [Coin Piles](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Coin_piles.cpp)
