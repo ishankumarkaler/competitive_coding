@@ -14,4 +14,6 @@
    * [Maximum Subarray Sum](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/maximum_subarray_sum.cpp)
 ## Range Queries
    * [Range Sum Queries I](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Range_Queries/Range_sum_queries_1.cpp)
+## Mathematics
+   * [Exponentiation](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Mathematics/Exponentiation.cpp)
    
