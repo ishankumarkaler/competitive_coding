@@ -7,6 +7,7 @@
    * [Bit Strings](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Bit_strings.cpp)
    * [Trailing Zeros](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Trailing_zeros.cpp)
    * [Coin Piles](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Coin_piles.cpp)
+   * [Apple Division](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Apple_division.cpp)
 ## Sorting and Searching
    * [Distinct Numbers](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Distinct_Numbers.cpp)
    * [Sum of Two Values](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Sum_of_Two_Values.cpp)
