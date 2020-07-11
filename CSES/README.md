@@ -12,6 +12,7 @@
    * [Distinct Numbers](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Distinct_Numbers.cpp)
    * [Sum of Two Values](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Sum_of_Two_Values.cpp)
    * [Maximum Subarray Sum](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/maximum_subarray_sum.cpp)
+   * [Sum of Three Values](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Sum_of_three_values.cpp)
 ## Range Queries
    * [Range Sum Queries I](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Range_Queries/Range_sum_queries_1.cpp)
 ## Mathematics
