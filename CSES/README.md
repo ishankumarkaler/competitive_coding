@@ -4,6 +4,7 @@
    * [Weird Algorithm](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Missing_Number.cpp)
    * [Missing Number](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Missing_Number.cpp)
    * [Repetitions](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Repetitions.cpp)
+   * [Bit Strings](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Bit_strings.cpp)
 ## Sorting and Searching
    * [Distinct Numbers](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Distinct_Numbers.cpp)
    * [Sum of Two Values](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Sum_of_Two_Values.cpp)
