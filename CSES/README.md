@@ -13,6 +13,7 @@
    * [Apple Division](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Introductory_Problems/Apple_division.cpp)
 ## Sorting and Searching
    * [Distinct Numbers](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Distinct_Numbers.cpp)
+   * [Concert Tickets](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/concert_tickets.cpp)
    * [Sum of Two Values](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/Sum_of_Two_Values.cpp)
    * [Maximum Subarray Sum](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/maximum_subarray_sum.cpp)
    * [Towers](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Sorting_and_Searching/towers.cpp)
