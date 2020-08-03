@@ -23,6 +23,6 @@
 ## Mathematics
    * [Exponentiation](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/Mathematics/Exponentiation.cpp)
 ## Graph Algorithms
-   * []()
-   * []()
+   * [Counting Rooms](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/graph_algorithms/counting_rooms.cpp)
+   * [Building Roads](https://github.com/ishankumarkaler/competitive_coding/blob/master/CSES/graph_algorithms/building_roads.cpp)
    
