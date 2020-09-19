@@ -1,3 +1,0 @@
-C:/Users/kumar/CLionProjects/competitive_coding/CSES/graph_algorithms/cmake-build-debug/CMakeFiles/graph_algorithms.dir
-C:/Users/kumar/CLionProjects/competitive_coding/CSES/graph_algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/kumar/CLionProjects/competitive_coding/CSES/graph_algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
