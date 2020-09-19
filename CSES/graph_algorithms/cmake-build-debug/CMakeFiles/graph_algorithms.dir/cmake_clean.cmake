@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/graph_algorithms.dir/round_trip.cpp.obj"
+  "CMakeFiles/graph_algorithms.dir/shortest_routes_1.cpp.obj"
   "graph_algorithms.exe"
   "graph_algorithms.exe.manifest"
   "graph_algorithms.pdb"

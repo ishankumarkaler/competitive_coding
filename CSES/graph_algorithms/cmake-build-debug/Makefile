@@ -142,32 +142,32 @@ graph_algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_algorithms.dir\build.make CMakeFiles/graph_algorithms.dir/build
 .PHONY : graph_algorithms/fast
 
-round_trip.obj: round_trip.cpp.obj
+shortest_routes_1.obj: shortest_routes_1.cpp.obj
 
-.PHONY : round_trip.obj
+.PHONY : shortest_routes_1.obj
 
 # target to build an object file
-round_trip.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_algorithms.dir\build.make CMakeFiles/graph_algorithms.dir/round_trip.cpp.obj
-.PHONY : round_trip.cpp.obj
+shortest_routes_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_algorithms.dir\build.make CMakeFiles/graph_algorithms.dir/shortest_routes_1.cpp.obj
+.PHONY : shortest_routes_1.cpp.obj
 
-round_trip.i: round_trip.cpp.i
+shortest_routes_1.i: shortest_routes_1.cpp.i
 
-.PHONY : round_trip.i
+.PHONY : shortest_routes_1.i
 
 # target to preprocess a source file
-round_trip.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_algorithms.dir\build.make CMakeFiles/graph_algorithms.dir/round_trip.cpp.i
-.PHONY : round_trip.cpp.i
+shortest_routes_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_algorithms.dir\build.make CMakeFiles/graph_algorithms.dir/shortest_routes_1.cpp.i
+.PHONY : shortest_routes_1.cpp.i
 
-round_trip.s: round_trip.cpp.s
+shortest_routes_1.s: shortest_routes_1.cpp.s
 
-.PHONY : round_trip.s
+.PHONY : shortest_routes_1.s
 
 # target to generate assembly for a file
-round_trip.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_algorithms.dir\build.make CMakeFiles/graph_algorithms.dir/round_trip.cpp.s
-.PHONY : round_trip.cpp.s
+shortest_routes_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graph_algorithms.dir\build.make CMakeFiles/graph_algorithms.dir/shortest_routes_1.cpp.s
+.PHONY : shortest_routes_1.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... graph_algorithms
-	@echo ... round_trip.obj
-	@echo ... round_trip.i
-	@echo ... round_trip.s
+	@echo ... shortest_routes_1.obj
+	@echo ... shortest_routes_1.i
+	@echo ... shortest_routes_1.s
 .PHONY : help
 
 

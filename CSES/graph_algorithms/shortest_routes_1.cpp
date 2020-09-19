@@ -30,40 +30,47 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #else
 #define debug(x...)
 #endif
-vector<vector<int>> adj;
-vector<int> vis;
-int cnt = 0;
-vector<string> s;
-vector<int> strlength;
-string cur;
-void dfs(int v){
-    cur += to_string(v);
-    cnt += 1;
-    for(auto& u:adj[v]){
-        if(vis[u]){
-            strlength.push_back(cnt);
-
+int n, m;
+vector<vector<pair<int, int>>> g;
+vector<bool> vis;
+vector<ll> dis;
+void add_edge(int u, int v, int d){
+    g[u-1].push_back({v-1, d});
+    // g[v-1].push_back({u-1, d});
+};
+void bfs(){
+    dis[0] = 0;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    pq.push({0, 0});
+    while (!pq.empty()){
+        int u = pq.top().second;
+        pq.pop();
+        for(auto& e:g[u]){;
+            int v = e.first;
+            int w = e.second;
+            if(dis[v] > dis[u] + w){
+                dis[v] = dis[u] + w;
+                pq.push({dis[v], v});
+            }
+            // debug(u + 1, v + 1, w, dis);
         }
     }
 }
 void solve(){
-    int n, m;
     cin>>n>>m;
-    adj.resize(n);
+    g.resize(n);
     vis.resize(n, false);
+    dis.resize(n, INFINITY);
     for(int i = 0; i < m; i++){
-        int a, b;
-        cin>>a>>b;
-        adj[a-1].push_back(b-1);
+        int u, v, d;
+        cin>>u>>v>>d;
+        add_edge(u, v, d);
     }
-    string ans, temp = "$";
-    int ans_cnt = 0;
-    for(int i = 0; i < n; i++){
-        if(!vis[i]){
-            cur = temp;
-            dfs(i);
-        }
+    bfs();
+    for(auto& e:dis){
+        cout<<e<<" ";
     }
+    cout<<"\n";
 }
 int itsShowTime()
 {
