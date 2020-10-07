@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/tree_matching.dir/all
+all: CMakeFiles/room_allocation.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/tree_matching.dir/clean
+clean: CMakeFiles/room_allocation.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tree_matching.dir
+# Target rules for target CMakeFiles/room_allocation.dir
 
 # All Build rule for target.
-CMakeFiles/tree_matching.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tree_matching.dir\build.make CMakeFiles/tree_matching.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tree_matching.dir\build.make CMakeFiles/tree_matching.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target tree_matching"
-.PHONY : CMakeFiles/tree_matching.dir/all
+CMakeFiles/room_allocation.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target room_allocation"
+.PHONY : CMakeFiles/room_allocation.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tree_matching.dir/rule: cmake_check_build_system
+CMakeFiles/room_allocation.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tree_matching.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/room_allocation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/tree_matching.dir/rule
+.PHONY : CMakeFiles/room_allocation.dir/rule
 
 # Convenience name for target.
-tree_matching: CMakeFiles/tree_matching.dir/rule
+room_allocation: CMakeFiles/room_allocation.dir/rule
 
-.PHONY : tree_matching
+.PHONY : room_allocation
 
 # clean rule for target.
-CMakeFiles/tree_matching.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tree_matching.dir\build.make CMakeFiles/tree_matching.dir/clean
-.PHONY : CMakeFiles/tree_matching.dir/clean
+CMakeFiles/room_allocation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/clean
+.PHONY : CMakeFiles/room_allocation.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

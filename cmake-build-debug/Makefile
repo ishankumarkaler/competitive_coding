@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tree_matching
+# Target rules for targets named room_allocation
 
 # Build rule for target.
-tree_matching: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tree_matching
-.PHONY : tree_matching
+room_allocation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 room_allocation
+.PHONY : room_allocation
 
 # fast build rule for target.
-tree_matching/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tree_matching.dir\build.make CMakeFiles/tree_matching.dir/build
-.PHONY : tree_matching/fast
+room_allocation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/build
+.PHONY : room_allocation/fast
 
-CSES/tree_algorithms/tree_matching.obj: CSES/tree_algorithms/tree_matching.cpp.obj
+CSES/Sorting_and_Searching/room_allocation.obj: CSES/Sorting_and_Searching/room_allocation.cpp.obj
 
-.PHONY : CSES/tree_algorithms/tree_matching.obj
+.PHONY : CSES/Sorting_and_Searching/room_allocation.obj
 
 # target to build an object file
-CSES/tree_algorithms/tree_matching.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tree_matching.dir\build.make CMakeFiles/tree_matching.dir/CSES/tree_algorithms/tree_matching.cpp.obj
-.PHONY : CSES/tree_algorithms/tree_matching.cpp.obj
+CSES/Sorting_and_Searching/room_allocation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/CSES/Sorting_and_Searching/room_allocation.cpp.obj
+.PHONY : CSES/Sorting_and_Searching/room_allocation.cpp.obj
 
-CSES/tree_algorithms/tree_matching.i: CSES/tree_algorithms/tree_matching.cpp.i
+CSES/Sorting_and_Searching/room_allocation.i: CSES/Sorting_and_Searching/room_allocation.cpp.i
 
-.PHONY : CSES/tree_algorithms/tree_matching.i
+.PHONY : CSES/Sorting_and_Searching/room_allocation.i
 
 # target to preprocess a source file
-CSES/tree_algorithms/tree_matching.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tree_matching.dir\build.make CMakeFiles/tree_matching.dir/CSES/tree_algorithms/tree_matching.cpp.i
-.PHONY : CSES/tree_algorithms/tree_matching.cpp.i
+CSES/Sorting_and_Searching/room_allocation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/CSES/Sorting_and_Searching/room_allocation.cpp.i
+.PHONY : CSES/Sorting_and_Searching/room_allocation.cpp.i
 
-CSES/tree_algorithms/tree_matching.s: CSES/tree_algorithms/tree_matching.cpp.s
+CSES/Sorting_and_Searching/room_allocation.s: CSES/Sorting_and_Searching/room_allocation.cpp.s
 
-.PHONY : CSES/tree_algorithms/tree_matching.s
+.PHONY : CSES/Sorting_and_Searching/room_allocation.s
 
 # target to generate assembly for a file
-CSES/tree_algorithms/tree_matching.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tree_matching.dir\build.make CMakeFiles/tree_matching.dir/CSES/tree_algorithms/tree_matching.cpp.s
-.PHONY : CSES/tree_algorithms/tree_matching.cpp.s
+CSES/Sorting_and_Searching/room_allocation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/CSES/Sorting_and_Searching/room_allocation.cpp.s
+.PHONY : CSES/Sorting_and_Searching/room_allocation.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... tree_matching
-	@echo ... CSES/tree_algorithms/tree_matching.obj
-	@echo ... CSES/tree_algorithms/tree_matching.i
-	@echo ... CSES/tree_algorithms/tree_matching.s
+	@echo ... room_allocation
+	@echo ... CSES/Sorting_and_Searching/room_allocation.obj
+	@echo ... CSES/Sorting_and_Searching/room_allocation.i
+	@echo ... CSES/Sorting_and_Searching/room_allocation.s
 .PHONY : help
 
 

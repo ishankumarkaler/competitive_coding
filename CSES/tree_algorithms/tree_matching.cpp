@@ -1,3 +1,8 @@
+/*
+ *
+ *          YET TO BE COMPLETED
+ *
+ * */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -33,7 +38,7 @@ void solve(){
     }
     cout<<cnt<<"\n";
 }
-int itsShowTime()
+int main()
 {
 //    freopen("input.txt", "r", stdin);
 //    freopen("output.txt", "w", stdout);
