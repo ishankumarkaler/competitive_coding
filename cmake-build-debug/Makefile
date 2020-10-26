@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named room_allocation
+# Target rules for targets named sum_of_divisors
 
 # Build rule for target.
-room_allocation: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 room_allocation
-.PHONY : room_allocation
+sum_of_divisors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sum_of_divisors
+.PHONY : sum_of_divisors
 
 # fast build rule for target.
-room_allocation/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/build
-.PHONY : room_allocation/fast
+sum_of_divisors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/build
+.PHONY : sum_of_divisors/fast
 
-CSES/Sorting_and_Searching/room_allocation.obj: CSES/Sorting_and_Searching/room_allocation.cpp.obj
+CSES/Mathematics/sum_of_divisors.obj: CSES/Mathematics/sum_of_divisors.cpp.obj
 
-.PHONY : CSES/Sorting_and_Searching/room_allocation.obj
+.PHONY : CSES/Mathematics/sum_of_divisors.obj
 
 # target to build an object file
-CSES/Sorting_and_Searching/room_allocation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/CSES/Sorting_and_Searching/room_allocation.cpp.obj
-.PHONY : CSES/Sorting_and_Searching/room_allocation.cpp.obj
+CSES/Mathematics/sum_of_divisors.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/CSES/Mathematics/sum_of_divisors.cpp.obj
+.PHONY : CSES/Mathematics/sum_of_divisors.cpp.obj
 
-CSES/Sorting_and_Searching/room_allocation.i: CSES/Sorting_and_Searching/room_allocation.cpp.i
+CSES/Mathematics/sum_of_divisors.i: CSES/Mathematics/sum_of_divisors.cpp.i
 
-.PHONY : CSES/Sorting_and_Searching/room_allocation.i
+.PHONY : CSES/Mathematics/sum_of_divisors.i
 
 # target to preprocess a source file
-CSES/Sorting_and_Searching/room_allocation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/CSES/Sorting_and_Searching/room_allocation.cpp.i
-.PHONY : CSES/Sorting_and_Searching/room_allocation.cpp.i
+CSES/Mathematics/sum_of_divisors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/CSES/Mathematics/sum_of_divisors.cpp.i
+.PHONY : CSES/Mathematics/sum_of_divisors.cpp.i
 
-CSES/Sorting_and_Searching/room_allocation.s: CSES/Sorting_and_Searching/room_allocation.cpp.s
+CSES/Mathematics/sum_of_divisors.s: CSES/Mathematics/sum_of_divisors.cpp.s
 
-.PHONY : CSES/Sorting_and_Searching/room_allocation.s
+.PHONY : CSES/Mathematics/sum_of_divisors.s
 
 # target to generate assembly for a file
-CSES/Sorting_and_Searching/room_allocation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/CSES/Sorting_and_Searching/room_allocation.cpp.s
-.PHONY : CSES/Sorting_and_Searching/room_allocation.cpp.s
+CSES/Mathematics/sum_of_divisors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/CSES/Mathematics/sum_of_divisors.cpp.s
+.PHONY : CSES/Mathematics/sum_of_divisors.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... room_allocation
-	@echo ... CSES/Sorting_and_Searching/room_allocation.obj
-	@echo ... CSES/Sorting_and_Searching/room_allocation.i
-	@echo ... CSES/Sorting_and_Searching/room_allocation.s
+	@echo ... sum_of_divisors
+	@echo ... CSES/Mathematics/sum_of_divisors.obj
+	@echo ... CSES/Mathematics/sum_of_divisors.i
+	@echo ... CSES/Mathematics/sum_of_divisors.s
 .PHONY : help
 
 

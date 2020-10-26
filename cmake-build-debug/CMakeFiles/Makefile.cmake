@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/room_allocation.dir/DependInfo.cmake"
+  "CMakeFiles/sum_of_divisors.dir/DependInfo.cmake"
   )

@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/room_allocation.dir/all
+all: CMakeFiles/sum_of_divisors.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/room_allocation.dir/clean
+clean: CMakeFiles/sum_of_divisors.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/room_allocation.dir
+# Target rules for target CMakeFiles/sum_of_divisors.dir
 
 # All Build rule for target.
-CMakeFiles/room_allocation.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target room_allocation"
-.PHONY : CMakeFiles/room_allocation.dir/all
+CMakeFiles/sum_of_divisors.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target sum_of_divisors"
+.PHONY : CMakeFiles/sum_of_divisors.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/room_allocation.dir/rule: cmake_check_build_system
+CMakeFiles/sum_of_divisors.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/room_allocation.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sum_of_divisors.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/room_allocation.dir/rule
+.PHONY : CMakeFiles/sum_of_divisors.dir/rule
 
 # Convenience name for target.
-room_allocation: CMakeFiles/room_allocation.dir/rule
+sum_of_divisors: CMakeFiles/sum_of_divisors.dir/rule
 
-.PHONY : room_allocation
+.PHONY : sum_of_divisors
 
 # clean rule for target.
-CMakeFiles/room_allocation.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\room_allocation.dir\build.make CMakeFiles/room_allocation.dir/clean
-.PHONY : CMakeFiles/room_allocation.dir/clean
+CMakeFiles/sum_of_divisors.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/clean
+.PHONY : CMakeFiles/sum_of_divisors.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
