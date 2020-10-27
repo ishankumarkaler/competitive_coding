@@ -1,3 +1,3 @@
-C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/CMakeFiles/sum_of_divisors.dir
+C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/CMakeFiles/playlist.dir
 C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/CMakeFiles/rebuild_cache.dir

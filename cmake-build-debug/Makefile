@@ -130,44 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sum_of_divisors
+# Target rules for targets named playlist
 
 # Build rule for target.
-sum_of_divisors: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sum_of_divisors
-.PHONY : sum_of_divisors
+playlist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 playlist
+.PHONY : playlist
 
 # fast build rule for target.
-sum_of_divisors/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/build
-.PHONY : sum_of_divisors/fast
+playlist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playlist.dir\build.make CMakeFiles/playlist.dir/build
+.PHONY : playlist/fast
 
-CSES/Mathematics/sum_of_divisors.obj: CSES/Mathematics/sum_of_divisors.cpp.obj
+CSES/Sorting_and_Searching/playlist.obj: CSES/Sorting_and_Searching/playlist.cpp.obj
 
-.PHONY : CSES/Mathematics/sum_of_divisors.obj
+.PHONY : CSES/Sorting_and_Searching/playlist.obj
 
 # target to build an object file
-CSES/Mathematics/sum_of_divisors.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/CSES/Mathematics/sum_of_divisors.cpp.obj
-.PHONY : CSES/Mathematics/sum_of_divisors.cpp.obj
+CSES/Sorting_and_Searching/playlist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playlist.dir\build.make CMakeFiles/playlist.dir/CSES/Sorting_and_Searching/playlist.cpp.obj
+.PHONY : CSES/Sorting_and_Searching/playlist.cpp.obj
 
-CSES/Mathematics/sum_of_divisors.i: CSES/Mathematics/sum_of_divisors.cpp.i
+CSES/Sorting_and_Searching/playlist.i: CSES/Sorting_and_Searching/playlist.cpp.i
 
-.PHONY : CSES/Mathematics/sum_of_divisors.i
+.PHONY : CSES/Sorting_and_Searching/playlist.i
 
 # target to preprocess a source file
-CSES/Mathematics/sum_of_divisors.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/CSES/Mathematics/sum_of_divisors.cpp.i
-.PHONY : CSES/Mathematics/sum_of_divisors.cpp.i
+CSES/Sorting_and_Searching/playlist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playlist.dir\build.make CMakeFiles/playlist.dir/CSES/Sorting_and_Searching/playlist.cpp.i
+.PHONY : CSES/Sorting_and_Searching/playlist.cpp.i
 
-CSES/Mathematics/sum_of_divisors.s: CSES/Mathematics/sum_of_divisors.cpp.s
+CSES/Sorting_and_Searching/playlist.s: CSES/Sorting_and_Searching/playlist.cpp.s
 
-.PHONY : CSES/Mathematics/sum_of_divisors.s
+.PHONY : CSES/Sorting_and_Searching/playlist.s
 
 # target to generate assembly for a file
-CSES/Mathematics/sum_of_divisors.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/CSES/Mathematics/sum_of_divisors.cpp.s
-.PHONY : CSES/Mathematics/sum_of_divisors.cpp.s
+CSES/Sorting_and_Searching/playlist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playlist.dir\build.make CMakeFiles/playlist.dir/CSES/Sorting_and_Searching/playlist.cpp.s
+.PHONY : CSES/Sorting_and_Searching/playlist.cpp.s
 
 # Help Target
 help:
@@ -177,10 +177,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... sum_of_divisors
-	@echo ... CSES/Mathematics/sum_of_divisors.obj
-	@echo ... CSES/Mathematics/sum_of_divisors.i
-	@echo ... CSES/Mathematics/sum_of_divisors.s
+	@echo ... playlist
+	@echo ... CSES/Sorting_and_Searching/playlist.obj
+	@echo ... CSES/Sorting_and_Searching/playlist.i
+	@echo ... CSES/Sorting_and_Searching/playlist.s
 .PHONY : help
 
 

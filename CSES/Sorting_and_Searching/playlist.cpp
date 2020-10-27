@@ -1,10 +1,3 @@
-/*
- *
- *          INCOMPLETE CODE
- *
- * */
-
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -38,18 +31,23 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #else
 #define debug(x...)
 #endif
-
+bool cmp(const pair<int, int> a, const pair<int, int> b){
+    return a.second < b.second;
+}
 void solve(){
-    ll x;
-    cin >> x;
-    ll ans = 1;
-    for(ll i = 1; i * i <= x; i++){
-        if(x%i == 0){
-            ans = (ans * i)%mod;
-            if(i*i != x){
-                ans = (ans * (x/i))%mod;
-            }
+    int n;
+    cin >> n;
+    map<int, int> hs;
+    int idx = 0;
+    int ans = 1;
+    for (int i = 0; i < n; ++i) {
+        int cur;
+        cin >> cur;
+        if(hs.find(cur) != hs.end()){
+            idx = max(idx, hs[cur] + 1);
         }
+        ans = max(ans, i - idx + 1);
+        hs[cur] = i;
     }
     cout << ans << "\n";
 }

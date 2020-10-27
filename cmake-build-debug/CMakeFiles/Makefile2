@@ -72,7 +72,7 @@ CMAKE_BINARY_DIR = C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-d
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/sum_of_divisors.dir/all
+all: CMakeFiles/playlist.dir/all
 
 .PHONY : all
 
@@ -82,36 +82,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/sum_of_divisors.dir/clean
+clean: CMakeFiles/playlist.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sum_of_divisors.dir
+# Target rules for target CMakeFiles/playlist.dir
 
 # All Build rule for target.
-CMakeFiles/sum_of_divisors.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target sum_of_divisors"
-.PHONY : CMakeFiles/sum_of_divisors.dir/all
+CMakeFiles/playlist.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playlist.dir\build.make CMakeFiles/playlist.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playlist.dir\build.make CMakeFiles/playlist.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target playlist"
+.PHONY : CMakeFiles/playlist.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sum_of_divisors.dir/rule: cmake_check_build_system
+CMakeFiles/playlist.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sum_of_divisors.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/playlist.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kumar\CLionProjects\competitive_coding\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/sum_of_divisors.dir/rule
+.PHONY : CMakeFiles/playlist.dir/rule
 
 # Convenience name for target.
-sum_of_divisors: CMakeFiles/sum_of_divisors.dir/rule
+playlist: CMakeFiles/playlist.dir/rule
 
-.PHONY : sum_of_divisors
+.PHONY : playlist
 
 # clean rule for target.
-CMakeFiles/sum_of_divisors.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sum_of_divisors.dir\build.make CMakeFiles/sum_of_divisors.dir/clean
-.PHONY : CMakeFiles/sum_of_divisors.dir/clean
+CMakeFiles/playlist.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\playlist.dir\build.make CMakeFiles/playlist.dir/clean
+.PHONY : CMakeFiles/playlist.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

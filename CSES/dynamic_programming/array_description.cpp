@@ -1,10 +1,3 @@
-/*
- *
- *          INCOMPLETE CODE
- *
- * */
-
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -40,18 +33,9 @@ void _print(T t, V... v) {__print(t); if (sizeof...(v)) cerr << ", "; _print(v..
 #endif
 
 void solve(){
-    ll x;
-    cin >> x;
-    ll ans = 1;
-    for(ll i = 1; i * i <= x; i++){
-        if(x%i == 0){
-            ans = (ans * i)%mod;
-            if(i*i != x){
-                ans = (ans * (x/i))%mod;
-            }
-        }
-    }
-    cout << ans << "\n";
+    int n, m;
+    cin >> n >> m;
+    vector<int>
 }
 int main()
 {
@@ -60,7 +44,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     int t = 1;
-    // cin >> t;
+    cin >> t;
     // pre();
     while (t--)
         solve();

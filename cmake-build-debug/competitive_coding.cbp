@@ -17,8 +17,8 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sum_of_divisors">
-				<Option output="C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/sum_of_divisors.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="playlist">
+				<Option output="C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/playlist.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -33,14 +33,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_of_divisors"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 playlist"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sum_of_divisors/fast">
-				<Option output="C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/sum_of_divisors.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="playlist/fast">
+				<Option output="C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/playlist.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -55,7 +55,7 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 sum_of_divisors/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 playlist/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/kumar/CLionProjects/competitive_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -82,8 +82,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/kumar/CLionProjects/competitive_coding/CSES/Mathematics/sum_of_divisors.cpp">
-			<Option target="sum_of_divisors"/>
+		<Unit filename="C:/Users/kumar/CLionProjects/competitive_coding/CSES/Sorting_and_Searching/playlist.cpp">
+			<Option target="playlist"/>
 		</Unit>
 		<Unit filename="C:/Users/kumar/CLionProjects/competitive_coding/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
